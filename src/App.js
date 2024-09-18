@@ -21,11 +21,11 @@ function App() {
     window.referralJS.conversion = {
       debug: "true",
       parameters: {
-          firstName: "adfadsfa",
+          firstName: formData.name,
           //Referral First Name is HIGHLY RECOMMENDED.
           //Alternatively, replace "firstname:" with "fullname:" and we will parse the name.
           //Used for referral communications with  merge tag.
-          email: "asdf@adf.c", referralcode: "MKJK41"
+          email: formData.email, referralcode: "MKJK41"
           //Referral Email is HIGHLY RECOMMENDED.
           //Used to communicate with referrals through the Referral Rock platform.
           //This or "externalidentifier:" is used to positively ID referrals later and protect against fraud.
