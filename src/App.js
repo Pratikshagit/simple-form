@@ -26,20 +26,13 @@ function App() {
           //Referral First Name is HIGHLY RECOMMENDED.
           //Alternatively, replace "firstname:" with "fullname:" and we will parse the name.
           //Used for referral communications with  merge tag.
-          email: formData.email,
+          email: formData.email
           //Referral Email is HIGHLY RECOMMENDED.
           //Used to communicate with referrals through the Referral Rock platform.
           //This or "externalidentifier:" is used to positively ID referrals later and protect against fraud.
           //This or "email:" is used to positively ID referrals later and protect against fraud.
           //REQUIRED for referral rewards and program emails to referrals.
-          externalIdentifier: "",
-          //An ExternalID that is unique to the referral is RECOMMENDED. Can be a Customer#, Account#, UUID, etc.
-          //One of two parameters that can be used to positively ID referrals later and protect against fraud.
-          //REQUIRED for referral updates. Alternatively, use "email:".
-          amount: "999"
-          //RECOMMENDED. Generally a purchase amount, subscription length, or other # tied to a referral action.
-          //Allows better ROI analysis of your referral program.
-          //REQUIRED to give out reward amounts based on the referral purchase amount.
+         
       }
   };
 
